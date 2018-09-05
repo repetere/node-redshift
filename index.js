@@ -1,4 +1,5 @@
-module.exports = require('./lib/connection.js');
-module.exports.query = require('./lib/query.js');
-module.exports.model = require('./lib/model.js');
-module.exports.import = require('./lib/model.js').import;
+module.exports = require('./lib/connection');
+module.exports.query = require('./lib/query');
+module.exports.model = require('./lib/model');
+module.exports.import = require('./lib/model').import;
+module.exports.DataTypes = require('./lib/data-types');
