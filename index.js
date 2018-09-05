@@ -3,3 +3,4 @@ module.exports.query = require('./lib/query');
 module.exports.model = require('./lib/model');
 module.exports.import = require('./lib/model').import;
 module.exports.DataTypes = require('./lib/data-types');
+module.exports.ORM = require('./lib/orm');
