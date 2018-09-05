@@ -1,12 +1,13 @@
 {
-  "name": "node-redshift",
-  "version": "0.1.5",
+  "name": "@repetere/node-redshift",
+  "version": "1.0.0",
   "description": "A simple collection of tools to help you get started with Amazon Redshift from node.js",
   "main": "index.js",
   "dependencies": {
     "bluebird": "^3.5.0",
     "commander": "^2.9.0",
     "migrate": "^0.2.2",
+    "mongo-sql": "^6.0.0",
     "pg": "^6.1.2",
     "sql-bricks": "^1.2.3"
   },
